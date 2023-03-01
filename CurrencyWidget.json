@@ -5,7 +5,6 @@
   "description": "A SAP Custom Widget to displays the real-time currency conversion rate between two currencies.",
   "newInstancePrefix": "CurrencyWidget",
   "icon": "https://raw.githubusercontent.com/SAP-Custom-Widget/CurrencyWidget/main/icon.png",
-  "repository": "https://github.com/SAP-Custom-Widget/CurrencyWidget",
   "vendor": "Rohit Chouhan",
   "eula": "",
   "license": "MIT",
