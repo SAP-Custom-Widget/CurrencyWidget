@@ -1,7 +1,7 @@
 ## SAP Custom Widget: Currency Widget
 This is a custom widget that displays the real-time currency conversion rate between two currencies. It can be used in SAP applications to enhance user experience by providing quick access to currency conversion information.
 
-##Installation
+## Installation
 To use this widget in your SAP application, follow these steps:
 
 - Download the `CurrencyWidget.json` file from the URLs specified in the webcomponents property of the JSON.
