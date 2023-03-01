@@ -1,0 +1,96 @@
+{
+  "id": "com.rohitchouhan.currencywidget",
+  "version": "1.0.0",
+  "name": "Currency Widget",
+  "description": "A SAP Custom Widget to displays the real-time currency conversion rate between two currencies.",
+  "newInstancePrefix": "CurrencyWidget",
+  "icon": "https://raw.githubusercontent.com/SAP-Custom-Widget/CurrencyWidget/main/icon.png",
+  "repository": "https://github.com/SAP-Custom-Widget/CurrencyWidget",
+  "vendor": "Rohit Chouhan",
+  "eula": "",
+  "license": "MIT",
+  "webcomponents": [{
+      "kind": "main",
+      "tag": "com-rohitchouhan-currencywidget",
+      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/CurrencyWidget/CurrencyWidget.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    },
+    {
+      "kind": "builder",
+      "tag": "com-rohitchouhan-currencywidget-builder",
+      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/CurrencyWidget/CurrencyWidgetBuilder.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+    "from": {
+      "description": "From Currency",
+      "type": "string",
+      "default": "USD"
+    },
+    "to": {
+      "description": "To Currency",
+      "type": "string",
+      "default": "INR"
+    },
+    "amount": {
+      "description": "Amount",
+      "type": "integer",
+      "default": 10
+    },
+    "decimalPlaces": {
+      "description": "Decimal Places",
+      "type": "integer",
+      "default": 2
+    }
+  },
+  "methods": {
+    "setSourceCurrency": {
+      "description": "Set source curreny code.",
+      "parameters": [
+        {
+          "name": "sourceCurrency",
+          "type": "string",
+          "description": "Source current ex. USD"
+        }
+      ],
+      "body": "this.from = sourceCurrency;"
+    },
+    "setTargetCurrency": {
+      "description": "Set target curreny code.",
+      "parameters": [
+        {
+          "name": "targetCurrency",
+          "type": "string",
+          "description": "Target current ex. INR"
+        }
+      ],
+      "body": "this.to = targetCurrency;"
+    },
+    "setAmount": {
+      "description": "Set amount for rate conversion",
+      "parameters": [
+        {
+          "name": "amount",
+          "type": "integer",
+          "description": "Amount Price"
+        }
+      ],
+      "body": "this.amount = amount;"
+    },
+    "setDecimalPlaces": {
+      "description": "Set Decimal places for amount",
+      "parameters": [
+        {
+          "name": "places",
+          "type": "integer",
+          "description": "Decimal Places"
+        }
+      ],
+      "body": "this.decimalPlaces = places;"
+    }
+  },
+  "events": {}
+}
