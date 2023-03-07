@@ -1,6 +1,6 @@
 {
     "id": "com.rohitchouhan.sap.currencywidget",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "Currency Widget",
     "description": "This is a custom widget that displays the real-time currency conversion rate between two currencies. It can be used in SAP applications to enhance user experience by providing quick access to currency conversion information.",
     "newInstancePrefix": "CurrencyWidget",
