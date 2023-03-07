@@ -1,6 +1,6 @@
 {
     "id": "com.rohitchouhan.sap.currencywidget",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "name": "Currency Widget",
     "description": "This is a custom widget that displays the real-time currency conversion rate between two currencies. It can be used in SAP applications to enhance user experience by providing quick access to currency conversion information.",
     "newInstancePrefix": "CurrencyWidget",
@@ -12,14 +12,14 @@
         {
             "kind": "main",
             "tag": "com-rohitchouhan-sap-currencywidget",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/SAP-Custom-Widget\/CurrencyWidget@latest\/CurrencyWidget.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/SAP-Custom-Widget\/CurrencyWidget@1.0.4\/CurrencyWidget.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "builder",
             "tag": "com-rohitchouhan-sap-currencywidget-builder",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/SAP-Custom-Widget\/CurrencyWidget@latest\/CurrencyWidget_Builder.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/SAP-Custom-Widget\/CurrencyWidget@1.0.4\/CurrencyWidget_Builder.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
